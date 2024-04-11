@@ -24,5 +24,7 @@ Adiciona funcionalidades interativas à página, como enviar mensagens, exibir m
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 </div><br/>
 
-![tela pc](https://github.com/nayarakarinearaujo/Clone-Chat-Whatsapp/assets/149000384/856f77e8-d4d1-42b0-942c-7f3035ca706b)
-![smart](https://github.com/nayarakarinearaujo/Clone-Chat-Whatsapp/assets/149000384/a62e73f0-31eb-444b-9100-8c31b2b91e65)
+![tela pc](https://github.com/nayarakarinearaujo/Clone.Chat.Wats/assets/149000384/dc5e720f-a2f0-459c-97db-392776957bf1)
+![smart](https://github.com/nayarakarinearaujo/Clone.Chat.Wats/assets/149000384/9911ec99-fe2b-47b6-a3a2-fcff6f25007c)
+
+
