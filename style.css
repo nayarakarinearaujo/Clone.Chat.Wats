@@ -1,0 +1,113 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: auto; /* Adiciona rolagem vertical quando necessário */
+    max-height: 500px; /* Define uma altura máxima para o contêiner de mensagens */
+}
+
+.mensagem {
+    max-width: 70%;
+    padding: 10px;
+    margin: 5px 10px;
+    border-radius: 10px;
+}
+
+.recebida {
+    background-color: #ffffff;
+    align-self: flex-start;
+}
+
+.enviada {
+    background-color: #d1cfcf;
+    align-self: flex-end;
+    text-align: right;
+    word-wrap: break-word;
+}
+
+.time {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px; 
+}
+
+.confirmacao-icon-enviada {
+    margin-left: 5px;
+    color: #0d0e0d;
+}
+
+.confirmacao-icon-lida {
+    margin-left: 5px;
+    color: #4caf50;
+}
+
+.compose {
+    display: flex;
+    flex-direction: row; /* Alterado para empilhar os elementos verticalmente */
+    padding: 10px;
+}
+
+.compose input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.compose button {
+    padding: 8px 15px;
+    margin-left: 2px;
+    background-color: #FB6D48;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.compose button:hover {
+    background-color: #fcb09d;
+}
+
+#mensagemInput{
+    
+    width: 100%; /* Defina a largura para 100% para que o elemento ocupe toda a largura do seu contêiner pai */
+    box-sizing: border-box; /* Isso garante que a largura inclua o preenchimento e a borda, se houver */
+}
+
+
+/* CSS para telas menores (máximo 320px) */
+@media only screen and (max-width: 320px) {
+    .compose {
+        flex-direction: column; /* Altera para empilhar os elementos verticalmente */
+        padding: 5px; /* Reduz o padding geral */
+    }
+
+    .compose input[type="text"] {
+        padding: 5px; /* Reduz o padding do input */
+        margin-bottom: 5px; /* Reduz a margem inferior do input */
+    }
+
+    .compose button {
+        margin-left: 0; /* Remove a margem esquerda do botão */
+    }
+}
