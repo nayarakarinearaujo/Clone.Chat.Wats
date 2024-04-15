@@ -1,5 +1,5 @@
 ![image](https://github.com/nayarakarinearaujo/Clone.Conversa.Wats/assets/149000384/921563da-454a-4269-bb90-0b71e0bbcbe7)
-# Clone layout chat do Whatsapp
+# Clone layout chat Whatsapp
 
 
 ## Esse projeto serve para criar uma interface do chat do whatsapp usando HTML e CSS para a estrutura e estilos, e JavaScript para a funcionalidade interativa.
